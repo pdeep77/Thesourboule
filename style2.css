@@ -1,0 +1,33 @@
+body,
+  html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+    background: url(hands.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+h1 {
+  font-size: 7rem;
+  color:  #e2dbdb;
+}
+
+.header {
+  font-size: 6rem;
+  color: #e2dbdb;
+}
+.head {
+  width: 100%;
+  height: 100;
+  margin: 150px;
+}
+.btn {
+  background-color: grey;
+  font-size: 1.5rem
+}
+.btn-xl {
+  padding: 1rem 1.5rem;
+  margin: 50px;
+}

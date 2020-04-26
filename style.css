@@ -1,0 +1,36 @@
+.body {
+  background-image: url(back2.jpeg);
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transition: all 1.2s
+}
+.item{
+  flex-basis: auto;
+}
+.item:hover{
+  box-shadow: 5px 5px 5px black;
+  transform: scale(1.2);
+   transition-timing-function: ease-in;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-family: fantasy;
+  font-size: 32px;
+  border-bottom: 2px solid black;
+}
+
+img {
+  width: 425px;
+  length: 300px;
+  margin: 10px;
+  border-radius: 50%;
+}
